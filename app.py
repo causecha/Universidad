@@ -27,7 +27,7 @@ def prediccion():
 
     return mensaje
 
-pkl filename = 'diabetes.model.pkl'
+pkl filename = 'modelo.pkl'
 with open(pkl_filename, 'rb') as file:
     model = pickle.load(file)
 
